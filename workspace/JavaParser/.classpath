@@ -9,5 +9,7 @@
 	<classpathentry kind="lib" path="/home/felipe/Documentos/Dev/hibernate/hibernate-entitymanager-5.2.6.Final.jar"/>
 	<classpathentry kind="lib" path="/home/felipe/Documentos/Dev/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="/home/felipe/Documentos/Dev/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/felipe/Documentos/Dev/hibernate/hibernate-core-5.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="/home/felipe/Documentos/Dev/hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
