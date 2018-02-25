@@ -16,9 +16,10 @@ public class LogService {
 	}
 	public void addLogs (List<Log> logs) {
 		EntityManager em = factory.createEntityManager();
+		em.getTransaction().begin();
 		int counter = 1;
 		for(Log log : logs) {
-			em.persist(log);
+			em.merge(log);
 	        if (counter % 50 == 0) {
 	            em.flush();
 	            em.clear();

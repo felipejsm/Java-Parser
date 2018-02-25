@@ -42,7 +42,7 @@ public class Parser {
 			lista = fileUtil.getFileAsList(path);
 			List<Log> logList = new ArrayList<>();
 			Log log = new Log();
-			SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 			
 			for(String item : lista) {
 				Date date = formatter.parse(item.split("\\|")[0]);

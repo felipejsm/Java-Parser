@@ -3,26 +3,12 @@
  */
 package test.com.ef;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.junit.Test;
-
 /**
  * @author felipe
  *
  */
 public class FileUtilTest {
-	 private static String HOME = System.getProperty("user.home");
+	/* private static String HOME = System.getProperty("user.home");
 	 @Test
 	 public void givenPath_confirmIfFileExist_thenOk() {
 		    Path p = Paths.get(HOME+"/access.log");
@@ -66,5 +52,5 @@ public class FileUtilTest {
 		 for(String row : lista) {
 			 assertNotNull(row.split("\\|"));
 		 }
-	 }
+	 }*/
 }
