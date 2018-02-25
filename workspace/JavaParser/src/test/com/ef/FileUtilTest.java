@@ -53,7 +53,7 @@ public class FileUtilTest {
 	 public void givenFile_readAllLines_splitByDelimiter_thenOk() {
 		 Path path = Paths.get(HOME+"/access.log");
 		 try {
-			 List accessList = Files.readAllLines(path);
+			 List<String> accessList = Files.readAllLines(path);
 			Files.lines(path).forEach(row -> assertNotNull((row.split("\\|")[0])));
 		 } catch(IOException ioe) {
 	    	 System.err.println(ioe.getMessage());
